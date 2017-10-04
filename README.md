@@ -10,7 +10,7 @@ The eight queens puzzle is the problem of placing eight chess queens on an 8×8 
 
 ## Clarification
 
-This script do not try to solve the 1 million P=NP problem. The purpose is generate just one solution for each nxn board dimension."# Eight-Queens-Solution-Generator" 
+This script do not try to solve the 1 million P=NP problem. The purpose is generate just one solution for each nxn board dimension.
 
 ## Test it!!
 
