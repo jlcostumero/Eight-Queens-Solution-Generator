@@ -13,3 +13,7 @@ rompecabezas es un ejemplo del problema más general de las reinas n de colocar 
 ## Aclaración
 
 Este script no intenta resolver el problema de 1 millón de P = NP. El propósito es generar sólo una solución para cada dimensión del tablero nxn.
+
+## ¡¡Pruébalo!!
+
+https://jlcostumero.github.io/Eight-Queens-Solution-Generator/
