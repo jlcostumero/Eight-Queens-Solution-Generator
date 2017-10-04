@@ -1,15 +1,15 @@
 # Generador de soluciones para el problema de las ocho reinas
 
-Este es un simple código Javascript incrustado en el proyecto html que genera <b>una</ b> solución para [el problema de las ocho reinas] (https://en.wikipedia.org/wiki/Eight_queens_puzzle) para cualquier tabla de dimensiones nxn.
+Este es un simple cÃ³digo Javascript incrustado en el proyecto html que genera <b>una</b> soluciÃ³n para [el problema de las ocho reinas] (https://en.wikipedia.org/wiki/Eight_queens_puzzle) para cualquier tabla de dimensiones nxn.
 
 
-## ¿Qué problema?
+## Â¿QuÃ© problema?
 
-El rompecabezas de las ocho reinas es el problema de colocar ocho reinas de ajedrez en un tablero de ajedrez 8 × 8 para que no se amenacen entre sí dos reinas. Por lo tanto, una solución requiere que no hay dos reinas comparten la misma fila, columna o diagonal. Las ocho reinas
+El rompecabezas de las ocho reinas es el problema de colocar ocho reinas de ajedrez en un tablero de ajedrez 8 Ã— 8 para que no se amenacen entre sÃ­ dos reinas. Por lo tanto, una soluciÃ³n requiere que no hay dos reinas comparten la misma fila, columna o diagonal. Las ocho reinas
 
-rompecabezas es un ejemplo del problema más general de las reinas n de colocar n reinas no atacantes en un tablero de ajedrez n × n, para lo cual existen soluciones para todos los números naturales n con la excepción de n = 2 y n = 3.
+rompecabezas es un ejemplo del problema mÃ¡s general de las reinas n de colocar n reinas no atacantes en un tablero de ajedrez n Ã— n, para lo cual existen soluciones para todos los nÃºmeros naturales n con la excepciÃ³n de n = 2 y n = 3.
 
 
-## Aclaración
+## AclaraciÃ³n
 
-Este script no intenta resolver el problema de 1 millón de P = NP. El propósito es generar sólo una solución para cada dimensión del tablero nxn.
+Este script no intenta resolver el problema de 1 millÃ³n de P = NP. El propÃ³sito es generar sÃ³lo una soluciÃ³n para cada dimensiÃ³n del tablero nxn.
