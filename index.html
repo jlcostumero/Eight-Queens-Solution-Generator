@@ -1,0 +1,103 @@
+﻿<html>
+	<head>
+	<title>Queens Problem Solutions Generator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="EigthQueenProblemGeneratorScript.js"></script>
+	<style>
+		h1
+		{
+		text-align:center;
+		}
+		h2
+		{
+		text-align:center;
+		}
+		p
+		{
+		text-align:center;
+		font-size:200%;
+		color:#00fff0;
+		}
+		div2
+		{
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	</style>
+	</head>
+	<body style="font: normal 14px Verdana, Arial, sans-serif;" onload="init()">
+	
+	
+
+		<div align="center" class="panel panel-default ">
+			<div class="panel-heading">
+				<h1><font face="verdana" >Queens Problem Solutions Generator</font></h1>
+			</div>
+			<div class="panel-body">
+				<h1 id="txtHead2"><font face="verdana" ></font></h1>
+				<div align="center"><table  id="board" border='0'></table></div>
+				<h2><font face="verdana"  id="message"></font></h2>
+			</div>
+			<br>
+			<br>
+		</div>
+		<div align="center" class="panel panel-default">
+			 <div class="panel-body">
+				 <div class="form-group">
+					<table>
+						<tr><td><div class="form-group"><label>Dimension:</label><div></td>
+							<td>
+								<div class="form-group">
+									<input class="form-control" id="quantity" type="number" name="quantity" min="8" min="1000" value = "8">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div class="form-group"><label>Size:</label><div></td>
+							<td>
+								<div class="form-group">
+									<select id="sizes" class="form-control" name="select" onchange="personal = [];init();">
+										<option value="10">XXS</option> 
+										<option value="15" >XS</option>
+										<option value="20">S</option>
+										<option value="25" selected>Normal</option>
+										<option value="30">L</option>
+										<option value="35">XL</option>
+										<option value="40">XXL</option>
+									</select>
+								</div>
+							</td>
+						</tr>
+						<tr><td></td><td><button id="myButton" class="btn btn-success" onclick="personal = [];init();"><i class="fa fa-check" aria-hidden="true"></i>Calculate</button><br></td></tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div align="right">
+			<h4><font> By JL Costumero Burgos</font></h4>
+		</div>
+		<br>
+		<textarea id="imageQueen" class="input"  style="display:none;">
+			<svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="45" height="45">
+			  <g style="opacity:1; fill:#ffffff; fill-opacity:1; fill-rule:evenodd; stroke:#000000; stroke-width:1.5; stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4; stroke-dasharray:none; stroke-opacity:1;">
+				<path d="M 9 13 A 2 2 0 1 1  5,13 A 2 2 0 1 1  9 13 z" transform="translate(-1,-1)"/>
+				<path d="M 9 13 A 2 2 0 1 1  5,13 A 2 2 0 1 1  9 13 z" transform="translate(15.5,-5.5)"/>
+				<path d="M 9 13 A 2 2 0 1 1  5,13 A 2 2 0 1 1  9 13 z" transform="translate(32,-1)"/>
+				<path d="M 9 13 A 2 2 0 1 1  5,13 A 2 2 0 1 1  9 13 z" transform="translate(7,-4.5)"/>
+				<path d="M 9 13 A 2 2 0 1 1  5,13 A 2 2 0 1 1  9 13 z" transform="translate(24,-4)"/>
+				<path d="M 9,26 C 17.5,24.5 30,24.5 36,26 L 38,14 L 31,25 L 31,11 L 25.5,24.5 L 22.5,9.5 L 19.5,24.5 L 14,10.5 L 14,25 L 7,14 L 9,26 z " style="stroke-linecap:butt;"/>
+				<path d="M 9,26 C 9,28 10.5,28 11.5,30 C 12.5,31.5 12.5,31 12,33.5 C 10.5,34.5 10.5,36 10.5,36 C 9,37.5 11,38.5 11,38.5 C 17.5,39.5 27.5,39.5 34,38.5 C 34,38.5 35.5,37.5 34,36 C 34,36 34.5,34.5 33,33.5 C 32.5,31 32.5,31.5 33.5,30 C 34.5,28 36,28 36,26 C 27.5,24.5 17.5,24.5 9,26 z " style="stroke-linecap:butt;"/>
+				<path d="M 11.5,30 C 15,29 30,29 33.5,30" style="fill:none;"/>
+				<path d="M 12,33.5 C 18,32.5 27,32.5 33,33.5" style="fill:none;"/>
+			  </g>
+			</svg>
+		</textarea>
+	</body>
+</html>
