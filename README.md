@@ -1,4 +1,4 @@
-# Eight Queens Problem Solution Generator
+# N Queens Problem Solution Generator
 
 This is a simple Javascript code embedded in html that generate <b>one</b> solution for [the eight queens problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) for any N x N dimension boards. 
 
