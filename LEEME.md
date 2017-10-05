@@ -1,6 +1,6 @@
 # Generador de soluciones para el problema de las ocho reinas
 
-Este es un simple código Javascript incrustado en el proyecto html que genera <b>una</b> solución para [el problema de las ocho reinas] (https://en.wikipedia.org/wiki/Eight_queens_puzzle) para cualquier tabla de dimensiones nxn.
+Este es un simple código Javascript incrustado en el proyecto html que genera <b>una</b> solución para [el problema de las ocho reinas] (https://en.wikipedia.org/wiki/Eight_queens_puzzle) para cualquier tabla de dimensiones N x N.
 
 
 ## ¿Qué problema?
